@@ -4,7 +4,6 @@
   
 # write the line of code to import the datetime library (Hint: see Week 1 Lab 3 solution as a guide
 from datetime import datetime
-import locale
 # write the line of code to assign Employees.txt to the variable FILENAME (Hint: see week 6, lab 2 as a guide)
 FILENAME = "Employees.txt"
 
@@ -129,7 +128,7 @@ def PrintTotals(EmpTotals):
 #***************************************************************************************************************************************
 if __name__ == "__main__":
         # write the line of code that will open the file in append mode and assign it to EmpFile (Hint: see week 6, lab 2 as a guide)
-        with open(FILENAME, 'a') as Empfile:    
+       with open(FILENAME, 'a') as EmpFile:
             #EmpDetailList = []
             EmpTotals = {}
             DetailsPrinted = False
